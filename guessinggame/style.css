@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  background-color: rgb(165, 200, 231);
+  width: 100%;
+  height: 100vh;
+  border: 30px solid black;
+}
+
+header {
+  width: 100%;
+  height: 30vh;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 40px;
+  position: relative;
+}
+.between {
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(68, 68, 69);
+  position: absolute;
+  left: 75%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+.btn-again {
+  margin: 20px;
+  width: 150px;
+  height: 40px;
+  outline: none;
+  background-color: rgb(34, 34, 230);
+  color: white;
+}
+
+.number {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  color: black;
+  vertical-align: middle;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -40px;
+  font-size: 40px;
+}
+main {
+  position: relative;
+}
+
+.left {
+  width: 40%;
+  height: 40vh;
+  margin: 20px;
+  position: absolute;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left input {
+  width: 50%;
+  height: 50px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.btn-check {
+  width: 30%;
+  height: 30px;
+  outline: none;
+  background-color: rgb(34, 34, 230);
+  color: white;
+  margin: 10px;
+}
+
+.right {
+  width: 40%;
+  height: 40vh;
+  margin: 20px;
+  position: absolute;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.right p {
+  margin: 20px;
+  padding: 10px;
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+}
